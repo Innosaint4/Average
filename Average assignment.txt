@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+int main(){
+int phy_ass, phy_cw, phy_MOT,phy_EOT;
+printf("please enter the marks for physics\n");
+prntf("assignments\n");
+scanf("%d",&phy_ass);
+printf("course work\n");
+scanf("%d",&phy_cw);
+printf("mid-term\n");
+scanf("%d",&phy_MOT);
+printf("end of term\n");
+scanf("%d",&phy_EOT);
+int average_phy=(phy_ass+ phy_cw+ phy_MOT+phy_EOT)/4;
+printf("average =%d\n",average_phy);
+
+int math_ass, math_cw, math_MOT,math_EOT;
+printf("please enter the marks for maths\n");
+prntf("assignments\n");
+scanf("%d",&math_ass);
+printf("course work\n");
+scanf("%d",&math_cw);
+printf("mid-term\n");
+scanf("%d",&math_MOT);
+printf("end of term\n");
+scanf("%d",&math_EOT);
+int average_math=(math_ass+ math_cw+ math_MOT+math_EOT)/4;
+printf("average =%d\n",average_math);
+
+int chem_ass, chem_cw, chem_MOT,chem_EOT;
+printf("please enter the marks for chemistry\n");
+prntf("assignments\n");
+scanf("%d",&chem_ass);
+printf("course work\n");
+scanf("%d",&chem_cw);
+printf("mid-term\n");
+scanf("%d",&chem_MOT);
+printf("end of term\n");
+scanf("%d",&chem_EOT);
+int average_chem=(chem_ass+ chem_cw+ chem_MOT+chem_EOT)/4;
+printf("average =%d\n",average_chem);
+int total_average=(average_phy+average_math+average_chem)/3;
+printf("total_average=%d",total_average);
+
+
+
+
+return 0;
+}
