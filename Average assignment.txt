@@ -3,7 +3,7 @@
 int main(){
 int phy_ass, phy_cw, phy_MOT,phy_EOT;
 printf("please enter the marks for physics\n");
-prntf("assignments\n");
+printf("assignments\n");
 scanf("%d",&phy_ass);
 printf("course work\n");
 scanf("%d",&phy_cw);
@@ -16,7 +16,7 @@ printf("average =%d\n",average_phy);
 
 int math_ass, math_cw, math_MOT,math_EOT;
 printf("please enter the marks for maths\n");
-prntf("assignments\n");
+printf("assignments\n");
 scanf("%d",&math_ass);
 printf("course work\n");
 scanf("%d",&math_cw);
@@ -29,7 +29,7 @@ printf("average =%d\n",average_math);
 
 int chem_ass, chem_cw, chem_MOT,chem_EOT;
 printf("please enter the marks for chemistry\n");
-prntf("assignments\n");
+printf("assignments\n");
 scanf("%d",&chem_ass);
 printf("course work\n");
 scanf("%d",&chem_cw);
